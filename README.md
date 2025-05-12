@@ -1,12 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+En este proyecto creamos una pagina web con una api que nos muestra los jugadores prosesionales de fifa y nos da algunos datos como sus nombres, edades, donde copiten, etc... Con esta api pudimos demoestrar nuestros conocimientos en react implemenatandolo para crear esta web junto con boostrap y axios. Nos costo un poco poder implementar la parte con react y la parte del errorboundary pero se logró, asi que felices con haberlo hecho funcionar.
