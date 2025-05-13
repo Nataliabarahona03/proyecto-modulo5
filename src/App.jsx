@@ -5,8 +5,8 @@ const App = () => {
   return (
     <ErrorBoundary>
       <div>
-        <h1>Aplicación de Fútbol</h1>
-        <p>Explora los jugadores de fútbol.</p>
+        <h1>Aplicacion de FIFAS</h1>
+        <p>Conoce a los jugadoresjugadores de fútbol.</p>
       </div>
     </ErrorBoundary>
   );

@@ -70,7 +70,7 @@ const Players = () => {
         </div>
       </div>
 
-      {/* Lista de jugadores */}
+      
       {loading ? (
         <p className="text-center">Cargando jugadores...</p>
       ) : (
