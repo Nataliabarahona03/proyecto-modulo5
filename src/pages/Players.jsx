@@ -17,6 +17,9 @@ const Players = () => {
   useEffect(() => {
     const fetchPlayers = async () => {
       try {
+       
+        // throw new Error("El estadio está cerrado");
+
         const responses = await Promise.all(
           playerNames.map(name =>
             axios.get(`https://www.thesportsdb.com/api/v1/json/3/searchplayers.php?p=${name}`)
@@ -47,13 +50,12 @@ const Players = () => {
     <div className="container mt-5">
       <h2 className="text-center mb-4 text-primary">Tus jugadores FIFAS</h2>
 
-      {/* Botón de regreso */}
+      
       <div className="mb-4 d-flex justify-content-between align-items-center">
         <button className="btn btn-primary" onClick={() => navigate('/')}>
           ← Volver
         </button>
 
-        
         <div className="input-group w-50">
           <input
             type="text"
